@@ -139,6 +139,9 @@ margin-left: 5px;
 background: gold;
 border-radius: 4px;
 }
+.clipboard button:hover{
+background-color: #666;
+}
 
 .v{
     background: #9db;
