@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 .contactimage{
     display: block;
@@ -126,6 +126,19 @@
     
 }
 
+.clipboard{
+    background: #fff ;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.clipboard button{
+font-weight: bolder;
+margin-left: 5px;
+background: gold;
+border-radius: 4px;
+}
 
 .v{
     background: #9db;
@@ -178,7 +191,7 @@ b{background-color: black;}
 .form .tobuy:hover{
 background-color: black;
 }
-input[type=number], select{
+input[type=number],[type=text],[type=tel],[type=date], select{
     width: 80%;
     padding: 12px 20px;
     margin: 8px 2px 3px 7px;
@@ -293,5 +306,15 @@ margin-bottom: 40px;
         display: table;
         clear: both;
     }
-}
+    .clipboard{
 
+        margin-top: 20px;
+        padding: 50px;
+
+    }
+    .clipboard button{
+        position: relative;
+margin-top: 20px;
+left: 0%;
+    }
+}
